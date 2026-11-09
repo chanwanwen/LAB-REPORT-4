@@ -12,7 +12,7 @@ st.title("Hyperbolic Tangent (Tanh)")
 st.write("Tanh transforms inputs into values between negative one and positive one.")
 st.latex(r"f(x) = \tanh(x)")
 st.latex(r"= \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}")
-st.latex(r"f'(x) = 1 - \\tanh^2(x)")
+st.latex(r"f'(x) = 1 - \tanh^2(x)")
 
 # Sidebar settings
 with st.sidebar:
