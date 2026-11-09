@@ -89,7 +89,7 @@ Z = model.predict(np.c_[xx.ravel(), yy.ravel()]).reshape(xx.shape)
 fig, ax = plt.subplots(figsize=(7, 5))
 ax.contourf(xx, yy, Z, cmap=ListedColormap(["#FFEEEE", "#EEFFEE"]), alpha=0.7)
 ax.scatter(X[:, 0], X[:, 1], c=y, s=22, edgecolor="k",
-           cmap=ListedColormap(["#CC0000", "#007700"]))
+           cmap=ListedColormap(["red", "blue"]))
 ax.set_title(f"MLP with TANH (Accuracy = {accuracy:.3f})")
 ax.set_xlabel("x1")
 ax.set_ylabel("x2")
