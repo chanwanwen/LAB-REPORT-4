@@ -10,7 +10,7 @@ from matplotlib.colors import ListedColormap
 st.set_page_config(page_title="Sigmoid Activation Function", layout="wide")
 st.title("Sigmoid Activation Function")
 st.write("Sigmoid transforms an input into an output between zero and one.")
-st.latex(r"f(x) = \\frac{1}{1 + e^{-x}}")
+st.latex(r"f(x) = \frac{1}{1 + e^{-x}}")
 st.latex(r"f'(x) = f(x)(1-f(x))")
 
 # Sidebar settings
