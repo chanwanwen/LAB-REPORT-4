@@ -57,13 +57,14 @@ Replace the placeholders with your own Streamlit deployment URLs.
 Add screenshots captured from your own applications to the `screenshots/` folder.
 
 ### ReLU
-![ReLU application](screenshots/relu.png)
+![Main page relu](image/relu/main_page_relu.png)
+
 
 ### Sigmoid
-![Sigmoid application](screenshots/sigmoid.png)
+
 
 ### Tanh
-![Tanh application](screenshots/tanh.png)
+
 
 ## Run Locally
 
