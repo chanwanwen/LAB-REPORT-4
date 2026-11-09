@@ -37,7 +37,7 @@ xgrid = np.linspace(-6, 6, 400)
 output = activation_fn(x_input)
 gradient = activation_derivative(x_input)
 
-    fig, ax = plt.subplots(figsize=(6, 4))
+ax = plt.subplots(figsize=(6, 4))
     ax.plot(xgrid, activation_fn(xgrid), label="Activation", linewidth=2)
     ax.plot(xgrid, activation_derivative(xgrid), "--", label="Derivative")
     ax.scatter([x_input], [output], color="red", label="Your input", zorder=5)
@@ -49,6 +49,7 @@ gradient = activation_derivative(x_input)
     ax.grid(True, alpha=0.3)
     st.pyplot(fig)
     plt.close(fig)
+
 
     st.write("**Output for your input**")
     a, b, c = st.columns(3)
