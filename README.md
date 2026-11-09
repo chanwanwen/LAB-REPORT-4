@@ -57,17 +57,25 @@ Replace the placeholders with your own Streamlit deployment URLs.
 Add screenshots captured from your own applications to the `screenshots/` folder.
 
 ### ReLU
-![Main page relu](image/Relu/main page relu.png)
+![Main page relu](image/Relu/main_page_relu.png)
 
-![Curve relu](image/Relu/relu curve.png)
+![Curve relu](image/Relu/relu_curve.png)
 
-![Output relu](image/Relu/relu output.png)
+![Output relu](image/Relu/relu_output.png)
 
 ### Sigmoid
+![Main page Sigmoid](image/Sigmoid/main_page_sigmoid.png)
 
+![Curve Sigmoid](image/Sigmoid/sigmoid_curve.png)
+
+![Output Sigmoid](image/Sigmoid/output_sigmoid.png)
 
 ### Tanh
+![Main page Tanh](image/Tanh/main_page_tanh.png)
 
+![Curve Tanh](image/Tanh/tanh_curve.png)
+
+![Output Tanh](image/Tanh/output_tanh.png)
 
 ## Run Locally
 
