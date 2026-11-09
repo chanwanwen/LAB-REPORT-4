@@ -2,10 +2,6 @@
 
 **BSD3513 – Introduction to Artificial Intelligence | Lab Report 4**
 
-- **Student Name:** [Enter your full name]
-- **Student ID:** [Enter your student ID]
-- **Section:** [Enter your section]
-
 ## Project Overview
 
 This project contains three separate Streamlit applications that visualise commonly used activation functions in artificial neural networks:
@@ -22,9 +18,9 @@ Replace the placeholders with your own Streamlit deployment URLs.
 
 | Application | Live URL |
 |---|---|
-| ReLU | [Add your ReLU URL](#) |
-| Sigmoid | [Add your Sigmoid URL](#) |
-| Tanh | [Add your Tanh URL](#) |
+| ReLU | https://lab-report-4-vtmlhlywqsecapppzywmda.streamlit.app/ |
+| Sigmoid | http://lab-report-4-grq2qq9xyssmtt3ey3qvnx.streamlit.app/ |
+| Tanh | https://lab-report-4-ggn2ys4ft7c4t8w8ezeimp.streamlit.app/ |
 
 ## Features
 
