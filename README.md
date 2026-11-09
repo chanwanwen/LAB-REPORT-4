@@ -82,8 +82,8 @@ Add screenshots captured from your own applications to the `screenshots/` folder
 ### 1. Download or clone the repository
 
 ```bash
-git clone [Paste your GitHub repository URL]
-cd [Your repository folder]
+git clone [https://github.com/chanwanwen/LAB-REPORT-4]
+cd [LAB-REPORT-4]
 ```
 
 Alternatively, download the repository ZIP from GitHub and extract it.
@@ -119,10 +119,10 @@ BSD3513_Lab4/
 ├── tanh_app.py
 ├── requirements.txt
 ├── README.md
-└── screenshots/
-    ├── relu.png
-    ├── sigmoid.png
-    └── tanh.png
+└── image
+    ├── Relu
+    ├── Sigmoid
+    └── Tanh
 ```
 
 ## Tools and Libraries
@@ -136,9 +136,3 @@ BSD3513_Lab4/
 ## Notes on Results
 
 The displayed MLP accuracy depends on the selected dataset, sample count, noise, hidden-layer configuration and maximum iterations. Record the actual accuracy displayed by each application using the same settings before comparing the functions. Do not assume that one activation function will always perform best.
-
-## Author
-
-[Your full name]  
-BSD3513 – Introduction to Artificial Intelligence  
-Lab Report 4
