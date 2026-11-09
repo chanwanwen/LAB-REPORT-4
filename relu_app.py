@@ -87,7 +87,7 @@ xx, yy = np.meshgrid(
 Z = model.predict(np.c_[xx.ravel(), yy.ravel()]).reshape(xx.shape)
 
 fig, ax = plt.subplots(figsize=(7, 5))
-ax.contourf(xx, yy, Z, cmap=ListedColormap(["white", "white"]), alpha=0.7)
+ax.contourf(xx, yy, Z, cmap=ListedColormap(["#FFEEEE", "#EEFFEE"]), alpha=0.7)
 ax.scatter(X[:, 0], X[:, 1], c=y, s=22, edgecolor="k",
            cmap=ListedColormap(["red", "blue"]))
 ax.set_title(f"MLP with RELU (Accuracy = {accuracy:.3f})")
