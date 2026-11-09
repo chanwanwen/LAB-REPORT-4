@@ -10,8 +10,8 @@ from matplotlib.colors import ListedColormap
 st.set_page_config(page_title="Rectified Linear Unit (ReLU)", layout="wide")
 st.title("Rectified Linear Unit (ReLU)")
 st.write("ReLU returns the input when it is positive; otherwise, it returns zero.")
-st.latex(r"f(x) = \\max(0, x)")
-st.latex(r"f'(x) = \\begin{cases}1 & x>0 \\\\ 0 & x\\leq 0\\end{cases}")
+st.latex(r"f(x) = \max(0, x)")
+st.latex(r"f'(x) = \begin{cases} 1 & x > 0 \\ 0 & x \le 0 \end{cases}")
 
 # Sidebar settings
 with st.sidebar:
@@ -37,8 +37,6 @@ xgrid = np.linspace(-6, 6, 400)
 output = activation_fn(x_input)
 gradient = activation_derivative(x_input)
 
-col1, col2 = st.columns(2)
-with col1:
     fig, ax = plt.subplots(figsize=(6, 4))
     ax.plot(xgrid, activation_fn(xgrid), label="Activation", linewidth=2)
     ax.plot(xgrid, activation_derivative(xgrid), "--", label="Derivative")
@@ -52,7 +50,6 @@ with col1:
     st.pyplot(fig)
     plt.close(fig)
 
-with col2:
     st.write("**Output for your input**")
     a, b, c = st.columns(3)
     a.metric("Input", f"{x_input:.2f}")
