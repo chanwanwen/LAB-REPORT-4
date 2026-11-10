@@ -82,8 +82,8 @@ Add screenshots captured from your own applications to the `image` folder.
 ### 1. Download or clone the repository
 
 ```bash
-git clone [https://github.com/chanwanwen/LAB-REPORT-4]
-cd [LAB-REPORT-4]
+git clone https://github.com/chanwanwen/LAB-REPORT-4.git
+cd LAB-REPORT-4
 ```
 
 Alternatively, download the repository ZIP from GitHub and extract it.
