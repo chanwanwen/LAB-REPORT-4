@@ -62,7 +62,7 @@ st.write("- Useful for binary classification output")
 st.write("- May suffer from vanishing gradients for large |x|")
 
 # 2. Neural network demonstration
-st.subheader("2. Neural Network using LSIGMOID")
+st.subheader("2. Neural Network using SIGMOID")
 X, y = (make_moons(n_samples=n_samples, noise=noise, random_state=42)
         if ds == "Moons" else
         make_circles(n_samples=n_samples, noise=noise, factor=0.5, random_state=42))
