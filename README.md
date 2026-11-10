@@ -54,7 +54,7 @@ Replace the placeholders with your own Streamlit deployment URLs.
 
 ## Screenshots
 
-Add screenshots captured from your own applications to the `screenshots/` folder.
+Add screenshots captured from your own applications to the `image` folder.
 
 ### ReLU
 ![Main page relu](image/Relu/main_page_relu.png)
